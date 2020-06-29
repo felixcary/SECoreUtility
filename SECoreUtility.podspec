@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Sweetescape' => 'dev@sweetescape.com' }
   s.source           = { :git => 'https://github.com/felixcary/SECoreUtility.git', :tag => s.version }
  
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
   s.source_files = 'SECoreUtility/*'
  
 end
