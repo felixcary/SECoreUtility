@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SECoreUtility'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.swift_version    = '5'
   s.summary = "Pod for communicating between Client and Photographer using SendBird"
   s.homepage = "https://www.sweetescape.com"
