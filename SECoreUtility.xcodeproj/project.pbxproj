@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A798A55EDD3FDB610AC0971 /* Pods_SECoreUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F8F2DABE2AF05A0D8A1EE3 /* Pods_SECoreUtility.framework */; };
+		6CB5B9DA96E4631D4C7EA031 /* Pods_SECoreUtility_SECoreUtilityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30ED229D8A76FBC5124F8F09 /* Pods_SECoreUtility_SECoreUtilityTests.framework */; };
 		DC607F7324A9D6E6001B0E00 /* SECoreUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC607F6924A9D6E6001B0E00 /* SECoreUtility.framework */; };
 		DC607F7824A9D6E6001B0E00 /* SECoreUtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC607F7724A9D6E6001B0E00 /* SECoreUtilityTests.swift */; };
 		DC607F7A24A9D6E6001B0E00 /* SECoreUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = DC607F6C24A9D6E6001B0E00 /* SECoreUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EE3270F11046C66BF8C5AAE /* Pods-SECoreUtility-SECoreUtilityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SECoreUtility-SECoreUtilityTests.debug.xcconfig"; path = "Target Support Files/Pods-SECoreUtility-SECoreUtilityTests/Pods-SECoreUtility-SECoreUtilityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		30ED229D8A76FBC5124F8F09 /* Pods_SECoreUtility_SECoreUtilityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SECoreUtility_SECoreUtilityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A86060778B0386860444C46 /* Pods-SECoreUtility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SECoreUtility.release.xcconfig"; path = "Target Support Files/Pods-SECoreUtility/Pods-SECoreUtility.release.xcconfig"; sourceTree = "<group>"; };
 		DC607F6924A9D6E6001B0E00 /* SECoreUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SECoreUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC607F6C24A9D6E6001B0E00 /* SECoreUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SECoreUtility.h; sourceTree = "<group>"; };
 		DC607F6D24A9D6E6001B0E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +40,9 @@
 		DCB6CAE824A9DAE00088F0CD /* SECoreUtility.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = SECoreUtility.podspec; sourceTree = SOURCE_ROOT; };
 		DCB6CAEB24A9DD3E0088F0CD /* ConstantUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantUtil.swift; sourceTree = "<group>"; };
 		DCB6CAEC24A9DD3E0088F0CD /* ConstantAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantAccessibility.swift; sourceTree = "<group>"; };
+		E70E443B09E7DD70E12C725F /* Pods-SECoreUtility-SECoreUtilityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SECoreUtility-SECoreUtilityTests.release.xcconfig"; path = "Target Support Files/Pods-SECoreUtility-SECoreUtilityTests/Pods-SECoreUtility-SECoreUtilityTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC4B1E25105B813761AEC89B /* Pods-SECoreUtility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SECoreUtility.debug.xcconfig"; path = "Target Support Files/Pods-SECoreUtility/Pods-SECoreUtility.debug.xcconfig"; sourceTree = "<group>"; };
+		F3F8F2DABE2AF05A0D8A1EE3 /* Pods_SECoreUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SECoreUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A798A55EDD3FDB610AC0971 /* Pods_SECoreUtility.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC607F7324A9D6E6001B0E00 /* SECoreUtility.framework in Frameworks */,
+				6CB5B9DA96E4631D4C7EA031 /* Pods_SECoreUtility_SECoreUtilityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0321C4F0BD4A22C9EBD8884F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC4B1E25105B813761AEC89B /* Pods-SECoreUtility.debug.xcconfig */,
+				4A86060778B0386860444C46 /* Pods-SECoreUtility.release.xcconfig */,
+				1EE3270F11046C66BF8C5AAE /* Pods-SECoreUtility-SECoreUtilityTests.debug.xcconfig */,
+				E70E443B09E7DD70E12C725F /* Pods-SECoreUtility-SECoreUtilityTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		72540E1E4FE4DD3687C8253C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3F8F2DABE2AF05A0D8A1EE3 /* Pods_SECoreUtility.framework */,
+				30ED229D8A76FBC5124F8F09 /* Pods_SECoreUtility_SECoreUtilityTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DC607F5F24A9D6E6001B0E00 = {
 			isa = PBXGroup;
 			children = (
 				DC607F6B24A9D6E6001B0E00 /* SECoreUtility */,
 				DC607F7624A9D6E6001B0E00 /* SECoreUtilityTests */,
 				DC607F6A24A9D6E6001B0E00 /* Products */,
+				0321C4F0BD4A22C9EBD8884F /* Pods */,
+				72540E1E4FE4DD3687C8253C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +154,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC607F7D24A9D6E6001B0E00 /* Build configuration list for PBXNativeTarget "SECoreUtility" */;
 			buildPhases = (
+				8182C5989D6968428A14E466 /* [CP] Check Pods Manifest.lock */,
 				DC607F6424A9D6E6001B0E00 /* Headers */,
 				DC607F6524A9D6E6001B0E00 /* Sources */,
 				DC607F6624A9D6E6001B0E00 /* Frameworks */,
@@ -139,6 +173,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC607F8024A9D6E6001B0E00 /* Build configuration list for PBXNativeTarget "SECoreUtilityTests" */;
 			buildPhases = (
+				628682E598096390E50777AF /* [CP] Check Pods Manifest.lock */,
 				DC607F6E24A9D6E6001B0E00 /* Sources */,
 				DC607F6F24A9D6E6001B0E00 /* Frameworks */,
 				DC607F7024A9D6E6001B0E00 /* Resources */,
@@ -208,6 +243,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		628682E598096390E50777AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SECoreUtility-SECoreUtilityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8182C5989D6968428A14E466 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SECoreUtility-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DC607F6524A9D6E6001B0E00 /* Sources */ = {
@@ -360,6 +442,7 @@
 		};
 		DC607F7E24A9D6E6001B0E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC4B1E25105B813761AEC89B /* Pods-SECoreUtility.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -387,6 +470,7 @@
 		};
 		DC607F7F24A9D6E6001B0E00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A86060778B0386860444C46 /* Pods-SECoreUtility.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -413,6 +497,7 @@
 		};
 		DC607F8124A9D6E6001B0E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE3270F11046C66BF8C5AAE /* Pods-SECoreUtility-SECoreUtilityTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -432,6 +517,7 @@
 		};
 		DC607F8224A9D6E6001B0E00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E70E443B09E7DD70E12C725F /* Pods-SECoreUtility-SECoreUtilityTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
