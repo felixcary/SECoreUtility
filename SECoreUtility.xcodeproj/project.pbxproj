@@ -10,8 +10,9 @@
 		DC607F7324A9D6E6001B0E00 /* SECoreUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC607F6924A9D6E6001B0E00 /* SECoreUtility.framework */; };
 		DC607F7824A9D6E6001B0E00 /* SECoreUtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC607F7724A9D6E6001B0E00 /* SECoreUtilityTests.swift */; };
 		DC607F7A24A9D6E6001B0E00 /* SECoreUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = DC607F6C24A9D6E6001B0E00 /* SECoreUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCB6CAE524A9D9850088F0CD /* Constant in Resources */ = {isa = PBXBuildFile; fileRef = DCB6CAE424A9D9850088F0CD /* Constant */; };
 		DCB6CAE924A9DAE00088F0CD /* SECoreUtility.podspec in Resources */ = {isa = PBXBuildFile; fileRef = DCB6CAE824A9DAE00088F0CD /* SECoreUtility.podspec */; };
+		DCB6CAED24A9DD3E0088F0CD /* ConstantUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB6CAEB24A9DD3E0088F0CD /* ConstantUtil.swift */; };
+		DCB6CAEE24A9DD3E0088F0CD /* ConstantAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB6CAEC24A9DD3E0088F0CD /* ConstantAccessibility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +32,9 @@
 		DC607F7224A9D6E6001B0E00 /* SECoreUtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SECoreUtilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC607F7724A9D6E6001B0E00 /* SECoreUtilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SECoreUtilityTests.swift; sourceTree = "<group>"; };
 		DC607F7924A9D6E6001B0E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCB6CAE424A9D9850088F0CD /* Constant */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Constant; sourceTree = "<group>"; };
 		DCB6CAE824A9DAE00088F0CD /* SECoreUtility.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = SECoreUtility.podspec; sourceTree = SOURCE_ROOT; };
+		DCB6CAEB24A9DD3E0088F0CD /* ConstantUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantUtil.swift; sourceTree = "<group>"; };
+		DCB6CAEC24A9DD3E0088F0CD /* ConstantAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantAccessibility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +77,8 @@
 		DC607F6B24A9D6E6001B0E00 /* SECoreUtility */ = {
 			isa = PBXGroup;
 			children = (
+				DCB6CAEA24A9DD200088F0CD /* Constant */,
 				DCB6CAE824A9DAE00088F0CD /* SECoreUtility.podspec */,
-				DCB6CAE424A9D9850088F0CD /* Constant */,
 				DC607F6C24A9D6E6001B0E00 /* SECoreUtility.h */,
 				DC607F6D24A9D6E6001B0E00 /* Info.plist */,
 			);
@@ -90,6 +92,15 @@
 				DC607F7924A9D6E6001B0E00 /* Info.plist */,
 			);
 			path = SECoreUtilityTests;
+			sourceTree = "<group>";
+		};
+		DCB6CAEA24A9DD200088F0CD /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				DCB6CAEC24A9DD3E0088F0CD /* ConstantAccessibility.swift */,
+				DCB6CAEB24A9DD3E0088F0CD /* ConstantUtil.swift */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +165,7 @@
 				TargetAttributes = {
 					DC607F6824A9D6E6001B0E00 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 					DC607F7124A9D6E6001B0E00 = {
 						CreatedOnToolsVersion = 11.5;
@@ -185,7 +197,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCB6CAE924A9DAE00088F0CD /* SECoreUtility.podspec in Resources */,
-				DCB6CAE524A9D9850088F0CD /* Constant in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +214,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB6CAEE24A9DD3E0088F0CD /* ConstantAccessibility.swift in Sources */,
+				DCB6CAED24A9DD3E0088F0CD /* ConstantUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +361,7 @@
 		DC607F7E24A9D6E6001B0E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = C72R9CXZ7K;
@@ -365,6 +379,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.se.SECoreUtility;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -373,6 +388,7 @@
 		DC607F7F24A9D6E6001B0E00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = C72R9CXZ7K;
@@ -398,6 +414,7 @@
 		DC607F8124A9D6E6001B0E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C72R9CXZ7K;
 				INFOPLIST_FILE = SECoreUtilityTests/Info.plist;
@@ -416,6 +433,7 @@
 		DC607F8224A9D6E6001B0E00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C72R9CXZ7K;
 				INFOPLIST_FILE = SECoreUtilityTests/Info.plist;
