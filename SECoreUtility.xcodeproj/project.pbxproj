@@ -10,6 +10,7 @@
 		DC607F7324A9D6E6001B0E00 /* SECoreUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC607F6924A9D6E6001B0E00 /* SECoreUtility.framework */; };
 		DC607F7824A9D6E6001B0E00 /* SECoreUtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC607F7724A9D6E6001B0E00 /* SECoreUtilityTests.swift */; };
 		DC607F7A24A9D6E6001B0E00 /* SECoreUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = DC607F6C24A9D6E6001B0E00 /* SECoreUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCB6CAE524A9D9850088F0CD /* Constant in Resources */ = {isa = PBXBuildFile; fileRef = DCB6CAE424A9D9850088F0CD /* Constant */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		DC607F7224A9D6E6001B0E00 /* SECoreUtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SECoreUtilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC607F7724A9D6E6001B0E00 /* SECoreUtilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SECoreUtilityTests.swift; sourceTree = "<group>"; };
 		DC607F7924A9D6E6001B0E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB6CAE424A9D9850088F0CD /* Constant */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Constant; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		DC607F6B24A9D6E6001B0E00 /* SECoreUtility */ = {
 			isa = PBXGroup;
 			children = (
+				DCB6CAE424A9D9850088F0CD /* Constant */,
 				DC607F6C24A9D6E6001B0E00 /* SECoreUtility.h */,
 				DC607F6D24A9D6E6001B0E00 /* Info.plist */,
 			);
@@ -178,6 +181,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB6CAE524A9D9850088F0CD /* Constant in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +352,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SECoreUtility/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -372,6 +377,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SECoreUtility/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
