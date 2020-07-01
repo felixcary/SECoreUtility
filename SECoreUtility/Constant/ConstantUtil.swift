@@ -10,6 +10,7 @@ import Foundation
 
 public struct ConstantUtil {
     
+    public static let testConstant = "testConstant"
     public static let analyticActionTap = "Tap"
     public static let analyticActionStatus = "Status"
     public static let analyticActionType = "Type"
