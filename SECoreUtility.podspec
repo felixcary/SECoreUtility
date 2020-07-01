@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SECoreUtility'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.swift_version    = '5'
   s.summary          = "Pod for Constants"
   s.homepage         = "https://www.sweetescape.com"
